@@ -88,7 +88,7 @@ body {
 
 
 /* button */
-.filter-button {
+.button {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -98,11 +98,19 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
 
-    color: var(--primary-text-color);
-    background-color: var(--filter-bg-color);
     border-radius: 4px;
     border: 0;
     cursor: pointer;
+}
+
+.hero-button {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+}
+
+.filter-button {
+    color: var(--primary-text-color);
+    background-color: var(--filter-bg-color);
 }
 
 .filter-button:hover,
